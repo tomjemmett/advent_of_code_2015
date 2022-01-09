@@ -35,7 +35,11 @@ common shared-properties
         bytestring,
         utf8-string,
         text,
-        memoize
+        memoize,
+        lens,
+        aeson,
+        lens-aeson,
+        scientific
     default-extensions:
         BlockArguments
         FlexibleContexts
