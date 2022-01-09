@@ -1,5 +1,5 @@
 module Day11 (
-  day11, go
+  day11
 ) where
 
 import Common
