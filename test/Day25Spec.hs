@@ -1,14 +1,14 @@
-module Day25Spec ( spec ) where
+module Day25Spec (spec) where
 
 import SpecHelper
 
-testInput = ""
+testInput = "(6, 6)"
 
 spec :: Spec
 spec = describe "Day 25" $ do
   it "Sample" $ do
-    day25 testInput `shouldBe` ["", ""]
-      
+    day25 testInput `shouldBe` ["27995004"]
+
   it "Actual" $ do
     actualInput <- readFile "inputs/day25.txt"
-    day25 actualInput `shouldBe` ["", ""]
+    day25 actualInput `shouldBe` ["8997277"]
